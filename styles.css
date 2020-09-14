@@ -137,7 +137,7 @@ th {
   color: #232931;
 }
 
-@media screen and (device-width: 375px) and (device-height: 812px) {
+@media screen and (device-width: 360px) and (device-height: 640px) {
   .container {
     display: block;
   }
