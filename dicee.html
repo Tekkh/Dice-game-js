@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">Dice game 🎲</h1>
+    <h2 class="round">Round Number : <span>1</span></h2>
+    <div class="container">
+      <!---Results--->
+      <div class="score">
+        <h2 class="results">Results</h2>
+        <table class="table">
+          <thead class="table_head">
+            <tr class="row">
+              <th>You</th>
+              <th>Computer</th>
+            </tr>
+          </thead>
+          <tbody class="body">
+            <tr class="row">
+              <td class="player1">0</td>
+              <td class="player2">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!---Game--->
+      <div class="game">
+        <div class="dice">
+          <p>You</p>
+          <img class="img1" src="images/dice1.png" />
+          <img class="img2" src="images/dice2.png" />
+        </div>
+        <button type="submit" class="btn btn-player1">Play</button>
+        <div class="dice">
+          <p>Computer</p>
+          <img class="img3" src="images/dice4.png" />
+          <img class="img4" src="images/dice5.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-----rule---->
+
+    <div>
+      <p class="rule">
+        <strong>important!!</strong> If you get 7 your score will be knock Out!
+      </p>
+    </div>
+
+    <!-----Popup---->
+    <div class="popup-wrapper">
+      <div class="popup">
+        <div class="popup-close">X</div>
+        <div class="popup-content">
+          <p class="winner"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>🎲 TEK 🎲</footer>
+  <script src="index.js"></script>
+</html>

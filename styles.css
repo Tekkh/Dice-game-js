@@ -1,0 +1,193 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+body {
+  background-color: #393e46;
+  position: fixed;
+}
+
+h1 {
+  text-align: center;
+  margin: 0px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ecca3;
+}
+h2 {
+  display: block;
+  font-size: 2rem;
+  margin-top: 20px;
+  color: white;
+  font-family: "Lucida Sans", sans-serif;
+}
+.round {
+  margin-bottom: 0;
+  text-align: center;
+  margin-left: 30%;
+}
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 20%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+.game {
+  display: flex;
+}
+.rule {
+  text-align: center;
+  margin-top: 0%;
+  color: white;
+}
+.rule > strong {
+  color: black;
+}
+
+.btn {
+  margin-top: 200px;
+  height: 50px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border-style: hidden;
+  background-color: white;
+  color: #232931;
+  font-size: 1.2em;
+  font-family: "Lucida Sans", cursive;
+}
+
+.score > h2 {
+  margin: 10px;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+  font-size: 4rem;
+}
+table {
+  margin: 50px 20px;
+  width: 350px;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+tr:nth-of-type(odd) {
+  background: #393e46;
+}
+
+th {
+  background-color: #3498db;
+  font-weight: bold;
+}
+
+td,
+th {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #232931;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+/*-------Popup----------*/
+.popup-wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.popup {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+}
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+}
+.winner {
+  color: #232931;
+}
+@media screen and (max-width: 800px) {
+  .img1, .img2, .img3, .img4 {
+    width: 40%;
+  }
+  table {
+    margin: 50px 20px;
+    width: 250px;
+}
+@media screen and (max-width: 698px) {
+  .img1, .img2, .img3, .img4 {
+    width: 30%;
+  }
+  table {
+    margin: 50px 20px;
+    width: 200px;
+}
+@media screen and (max-width: 598px) {
+  .img1, .img2{
+    width: 40%;
+  }
+  .btn{
+    padding: 5px 25px;
+    font-size: 0.9em;
+  }
+  h1{
+    font-size: 3em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  .score > h2 {
+    font-size: 3rem;
+  }
+  footer {
+    margin-top: 12%;
+  }
+  table {
+    margin: 50px 20px;
+    width: 100px;
+}
+@media screen and (max-width: 468px) {
+  .img1, .img2{
+    width: 40%;
+  }
+  .img3, .img4{
+    width: 20%;
+  }
+  .btn{
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+  .score > h2 {
+    font-size: 2rem;
+  }
+  table {
+    margin: 30px 10px;
+    width: 40px;
+}
