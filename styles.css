@@ -61,14 +61,14 @@ footer {
 }
 
 .btn {
+  text-align: center;
   margin-top: 200px;
-  height: 50px;
   padding: 10px 40px;
   border-radius: 5px;
   border-style: hidden;
   background-color: white;
   color: #232931;
-  font-size: 1.2em;
+  font-size: 1.6em;
   font-family: "Lucida Sans", cursive;
 }
 
@@ -120,8 +120,7 @@ th {
 .popup {
   font-family: "Indie Flower", cursive;
   text-align: center;
-  width: 100%;
-  max-width: 300px;
+  width: 85%;
   margin: 10% auto;
   padding: 20px;
   background: #fff;
@@ -162,10 +161,10 @@ th {
     width: 40%;
   }
   .btn {
-    margin-top: 320px;
-    height: 50px;
-    padding: 10px 50px;
-    font-size: 2em;
+    margin-top: 310px;
+    text-align: center;
+    padding: 20px 80px;
+    font-size: 3rem;
   }
   table {
     width: 96%;
@@ -179,13 +178,16 @@ th {
     margin-top: 10%;
   }
   footer {
-    margin-top: 12%;
+    margin-top: 3%;
   }
   .popup {
-    margin-top: 700px;
+    margin-top: 650px;
+  }
+  .popup-content > p {
+    font-size: 5rem;
   }
   .popup-close {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
   }
 }
 @media screen and (max-width: 800px) {
