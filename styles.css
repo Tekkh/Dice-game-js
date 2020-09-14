@@ -30,7 +30,7 @@ h2 {
   margin-left: 30%;
 }
 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #4ecca3;
   font-family: "Indie Flower", cursive;
 }
@@ -40,7 +40,7 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 3%;
   color: #eeeeee;
   text-align: center;
   font-family: "Indie Flower", cursive;
@@ -48,13 +48,16 @@ footer {
 .game {
   display: flex;
 }
-.rule {
+.rule > p {
+  margin-left: 140px;
+  width: 80%;
   text-align: center;
   margin-top: 0%;
   color: white;
 }
-.rule > strong {
+.rule > p > strong {
   color: black;
+  font-size: 2.5rem;
 }
 
 .btn {
@@ -133,34 +136,96 @@ th {
 .winner {
   color: #232931;
 }
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .container {
+    display: block;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .round {
+    margin-left: auto;
+  }
+  .score > h2 {
+    font-size: 4rem;
+  }
+  .img1,
+  .img2 {
+    width: 40%;
+  }
+  .img3,
+  .img4 {
+    width: 40%;
+  }
+  .btn {
+    margin-top: 320px;
+    height: 50px;
+    padding: 10px 50px;
+    font-size: 2em;
+  }
+  table {
+    width: 96%;
+  }
+  td,
+  th {
+    padding: 40px;
+    font-size: 30px;
+  }
+  .rule > p {
+    margin-top: 10%;
+  }
+  footer {
+    margin-top: 12%;
+  }
+  .popup {
+    margin-top: 700px;
+  }
+  .popup-close {
+    font-size: 2.5rem;
+  }
+}
 @media screen and (max-width: 800px) {
-  .img1, .img2, .img3, .img4 {
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
     width: 40%;
   }
   table {
     margin: 50px 20px;
     width: 250px;
+  }
 }
 @media screen and (max-width: 698px) {
-  .img1, .img2, .img3, .img4 {
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
     width: 30%;
   }
   table {
     margin: 50px 20px;
     width: 200px;
+  }
 }
+
 @media screen and (max-width: 598px) {
-  .img1, .img2{
+  .img1,
+  .img2 {
     width: 40%;
   }
-  .btn{
+  .btn {
     padding: 5px 25px;
     font-size: 0.9em;
   }
-  h1{
+  h1 {
     font-size: 3em;
   }
-  h2{
+  h2 {
     font-size: 1.5em;
   }
   .score > h2 {
@@ -172,22 +237,23 @@ th {
   table {
     margin: 50px 20px;
     width: 100px;
+  }
 }
 @media screen and (max-width: 468px) {
-  .img1, .img2{
+  .img1,
+  .img2 {
     width: 40%;
   }
-  .img3, .img4{
+  .img3,
+  .img4 {
     width: 20%;
   }
-  .btn{
+  .btn {
     padding: 5px 10px;
     font-size: 0.9em;
-  }
-  .score > h2 {
-    font-size: 2rem;
   }
   table {
     margin: 30px 10px;
     width: 40px;
+  }
 }
