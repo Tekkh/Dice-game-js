@@ -5,14 +5,6 @@
   text-align: center;
 }
 body {
-  /* background-image: linear-gradient(
-    to right bottom,
-    #051937,
-    #14223b,
-    #202b3f,
-    #2c3543,
-    #393e46
-  );*/
   background-image: url("images/backg.png");
 }
 
@@ -145,7 +137,7 @@ th {
   color: #232931;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) { /*Medium  Screens*/
   .img1,
   .img2,
   .img3,
@@ -159,7 +151,7 @@ th {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) { /*Mobile phones */
   .container {
     display: block;
   }
@@ -221,114 +213,3 @@ th {
     margin-top: 170px;
   }
 }
-
-/*@media screen and (max-width: 480px) {
-    .container {
-      display: block;
-    }
-    h1 {
-      font-size: 8rem;
-    }
-    h2 {
-      font-size: 3rem;
-    }
-    .round {
-      margin-left: auto;
-    }
-    .score > h2 {
-      font-size: 4rem;
-    }
-    .dice > p {
-      font-size: 3rem;
-      font-weight: bold;
-    }
-    .img1,
-    .img2 {
-      width: 40%;
-    }
-    .img3,
-    .img4 {
-      width: 40%;
-    }
-    .btn {
-      margin-top: 310px;
-      text-align: center;
-      padding: 20px 80px;
-      font-size: 3rem;
-    }
-    table {
-      width: 96%;
-    }
-    td,
-    th {
-      padding: 40px;
-      font-size: 30px;
-    }
-    .rule > p {
-      margin-top: 7%;
-    }
-    footer {
-      margin-top: 1%;
-    }
-    .popup {
-      width: 85%;
-      margin-top: 650px;
-    }
-    .popup-content > p {
-      font-size: 5rem;
-    }
-    .popup-close {
-      font-size: 4.5rem;
-    }
-  }
-  @media screen and (max-width: 800px) {
-    .img1,
-    .img2,
-    .img3,
-    .img4 {
-      width: 40%;
-    }
-    table {
-      margin: 50px 20px;
-      width: 250px;
-    }
-  }
-  @media screen and (max-width: 698px) {
-    .img1,
-    .img2,
-    .img3,
-    .img4 {
-      width: 30%;
-    }
-    table {
-      margin: 50px 20px;
-      width: 200px;
-    }
-  }
-  
-  @media screen and (max-width: 598px) {
-    .img1,
-    .img2 {
-      width: 40%;
-    }
-    .btn {
-      padding: 5px 25px;
-      font-size: 0.9em;
-    }
-    h1 {
-      font-size: 3em;
-    }
-    h2 {
-      font-size: 1.5em;
-    }
-    .score > h2 {
-      font-size: 3rem;
-    }
-    footer {
-      margin-top: 12%;
-    }
-    table {
-      margin: 50px 20px;
-      width: 100px;
-    }
-  }*/

@@ -10,7 +10,7 @@ var int = 0;
 
 play.addEventListener("click", (e) => {
   e.preventDefault();
-  /*--------------------------- Round Increment && Reset ------------------------*/
+  /*--------------------------- Round Increment && Winner ------------------------*/
   int += 1;
   if (int < 10) {
     document.querySelector("h2 > span").innerHTML = int;
