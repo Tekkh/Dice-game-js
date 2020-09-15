@@ -31,29 +31,25 @@ play.addEventListener("click", (e) => {
     }, 500);
   }
   /*--------------------------- Player 1 game ------------------------*/
+  //Image1
   var randomNumber1 = Math.floor(Math.random() * 6) + 1;
-
   var randomImageSource = "images/dice" + randomNumber1 + ".png";
-
   document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
+  //Image2
   var randomNumber2 = Math.floor(Math.random() * 6) + 1;
-
   var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
-
   document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
   /*--------------------------- Player 2 game ------------------------*/
+  //Image3
   var randomNumber3 = Math.floor(Math.random() * 6) + 1;
-
   var randomImageSource3 = "images/dice" + randomNumber3 + ".png";
-
   document.querySelectorAll("img")[2].setAttribute("src", randomImageSource3);
 
+  //Image4
   var randomNumber4 = Math.floor(Math.random() * 6) + 1;
-
   var randomImageSource4 = "images/dice" + randomNumber4 + ".png";
-
   document.querySelectorAll("img")[3].setAttribute("src", randomImageSource4);
 
   /*--------------------------- Player 1 result ------------------------*/

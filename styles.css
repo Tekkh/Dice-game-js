@@ -137,7 +137,8 @@ th {
   color: #232931;
 }
 
-@media screen and (max-width: 992px) { /*Medium  Screens*/
+@media screen and (max-width: 992px) {
+  /*Medium  Screens*/
   .img1,
   .img2,
   .img3,
@@ -151,7 +152,8 @@ th {
   }
 }
 
-@media screen and (max-width: 767px) { /*Mobile phones */
+@media screen and (max-width: 767px) {
+  /*Mobile phones */
   .container {
     display: block;
   }
